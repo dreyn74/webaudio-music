@@ -1,0 +1,22 @@
+{
+  "name": "webaudio-music",
+  "version": "0.1.0",
+  "description": "Example project for dynamic webaudio music with hot-reloaded modules",
+  "main": "src/index.js",
+  "files": [
+    "/src"
+  ],
+  "scripts": {
+    "build": "cd demo && webpack --env.production",
+    "start": "cd demo && webpack-dev-server"
+  },
+  "author": "Andy Hall",
+  "license": "ISC",
+  "devDependencies": {
+    "soundgen": "^0.7.0",
+    "webaudio-viz": "0.0.2",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
